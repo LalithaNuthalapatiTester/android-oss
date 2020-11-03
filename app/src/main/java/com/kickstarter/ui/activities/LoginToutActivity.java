@@ -53,6 +53,8 @@ public final class LoginToutActivity extends BaseActivity<LoginToutViewModel.Vie
   protected void onCreate(final @Nullable Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
 
+	//Testing this particular file
+
     setContentView(R.layout.login_tout_layout);
     ButterKnife.bind(this);
     this.loginToolbar.setTitle(this.loginOrSignUpString);
